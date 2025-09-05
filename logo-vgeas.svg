@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Las Vegas Chamber logo">
+<!-- Neon, skyline + starburst vibe in black/red palette -->
+<defs>
+<radialGradient id="glow" cx="50%" cy="50%" r="75%">
+<stop offset="0%" stop-color="#ff3b3b" stop-opacity="0.9"/>
+<stop offset="60%" stop-color="#e50914" stop-opacity="0.35"/>
+<stop offset="100%" stop-color="#0b0b0d" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="64" height="64" rx="14" fill="#0b0b0d"/>
+<circle cx="32" cy="32" r="28" fill="url(#glow)"/>
+<!-- simplified skyline -->
+<g fill="#141418" stroke="#ff3b3b" stroke-width="1.4" stroke-linejoin="round">
+<path d="M8 46h48v6H8z"/>
+<path d="M14 46V34h6v12m4 0V28h7v18m7 0V36h6v10m6 0V30h4v16"/>
+<!-- Stratosphere needle -->
+<path d="M30 46V22"/>
+<circle cx="30" cy="22" r="3" fill="#0b0b0d"/>
+</g>
+<!-- starburst -->
+<g stroke="#ffd166" stroke-width="1.2" stroke-linecap="round">
+<path d="M50 12v6M50 12l3 3M50 12l-3 3"/>
+</g>
+</svg>

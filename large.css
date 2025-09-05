@@ -1,0 +1,13 @@
+@media (min-width: 768px){
+    #site-nav{position:static;transform:none;background:transparent;border:none}
+    #site-nav ul{display:flex;gap:.4rem}
+    #site-nav a{padding:.6rem .9rem;border-radius:12px}
+    #site-nav a:hover{background:rgba(255,255,255,.06)}
+    .menu-btn{display:none}
+    
+    
+    .grid-3{grid-template-columns:1fr 1fr 1fr}
+    .grid-2{grid-template-columns:1fr 1fr}
+    .tiers{grid-template-columns:repeat(3, minmax(0,1fr))}
+    .hero .content .wrap{padding:2rem}
+    }
